@@ -5,27 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor | Profile card component</title>
+    <link rel="icon"type="image/png"sizes="32x32" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="top">
-    <img src="/img/bg-pattern-top.svg" alt="">
-</div>
-<div class="card">
-    <img src="/img/image-victor.jpg" alt="victor">
-    <div class="card-info">
-    <h1>Victor Crest <span>26</span></h1>
-    <p>London</p>
-    <div class="line"></div>
-    <p>80K</p>
-    <p>Followers</p>
-    <p>803K</p>
-    <p>Likes</p>
-    <p>1.4K</p>
-    <p>Photos</p>
+    
+    <img class="circle-top" src="img/bg-pattern-top.svg" alt="" />
+    <img class="circle-bottom" src="img/bg-pattern-bottom.svg" alt="" />
+    <div class="top-card">
+        <img src="img/image-victor.jpg" alt="">
     </div>
-</div>
+    <div class="middle-card">
+        <h3>Victor Crest <span>26</span></h3>
+        <p><span>London</span></p>
+    </div>
+    <div class="bottom-card">
+        <div class="left-stat">
+            <h3>80K</h3>
+            <p><span>Followers</span></p>
+        </div>
+        <div class="middle-stat">
+            <h3>803K</h3>
+            <p><span>Likes</span></p>
+        </div>
+        <div class="right-stat">
+            <h3>1.4K</h3>
+            <p><span>Photos</span></p>
+        </div>
+    </div>
+  
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Jasmine Reese</a>.
+    </div>
+
 </body>
 </html>
